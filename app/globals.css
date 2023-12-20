@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    color: blue;
+}
+
+.logo{
+    color: brown;
+}
+
+.card{
+    margin: 30px;
+    width: fit-content;
+}
+
+.page-title{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
